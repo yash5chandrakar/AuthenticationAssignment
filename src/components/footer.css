@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 20px 10px;
+
+}
+
+.footer a {
+    color: white;
+}
+
+.footer li {
+    padding: 5px;
+}
+
+.sucess h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 2px white;
+}
+
+
+
+.home,
+.community,
+.connected {
+    font-size: 20px;
+}

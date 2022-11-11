@@ -1,0 +1,20 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 60px;
+    border-bottom: 2px black solid;
+}
+
+.siteName {
+    font-size: 50px;
+    color: rgb(135, 212, 238);
+    text-shadow: 2px 2px 2px black;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+}

@@ -1,0 +1,44 @@
+.mainDiv {
+    height: 600px;
+    display: flex;
+    background: linear-gradient(to right, rgb(170, 168, 168), white);
+    /* background-color: white; */
+}
+
+.left {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 50%;
+}
+
+.left h1 {
+    font-size: 70px;
+}
+
+.left h3 {
+    font-family: cursive;
+}
+
+.left span {
+    color: aqua;
+    text-shadow: 2px 2px 2px black;
+    font-size: 80px;
+}
+
+.left div {
+    text-align: left;
+}
+
+.left button {
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(156, 156, 231);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+}

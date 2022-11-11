@@ -1,0 +1,83 @@
+.outerDiv {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innderDiv {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 100px;
+    border-radius: 25px;
+}
+
+.innderDiv form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form h1 {
+    margin-bottom: 30px;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.innderDiv label {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+form input {
+    font-size: 30px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+form button {
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.adminDiv {
+    padding: 50px;
+
+}
+
+.adminDiv h1 {
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.funcs li {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 500px;
+}
+
+.funcs h2 {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.userData {
+    text-align: center;
+}
+
+.userData h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    padding: 10px;
+    margin: 10px;
+}
+
+.userData p {
+    font-size: 25px;
+}
