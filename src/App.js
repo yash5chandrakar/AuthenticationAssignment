@@ -63,7 +63,7 @@ function App() {
   const [userData, setuserData] = useState((newUserData) ? newUserData : initalUserData)
 
   const [isLoggedIn, setisLoggedIn] = useState(false)
-  const [mentors, setMentors] = useState(initialMentors)
+  const [mentors,] = useState(initialMentors)
 
   const [links, setLinks] = useState({
     facebook: "https://www.facebook.com/",
