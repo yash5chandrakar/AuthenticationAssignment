@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-distracting-elements */
 import React, { useState } from 'react'
 
 
@@ -31,6 +32,7 @@ const SignUpPage = (props) => {
 
             <div className='innderDiv'>
                 <form onSubmit={(e) => handleSubmit(e)}>
+                    <marquee>Admin User name is "yash5chandrakar@gmail" and password is "123@abc"</marquee>
                     <h1>Sign Up Page</h1>
                     <label htmlFor='name'>UserName</label><br />
                     <input value={username} onChange={(e) => setUsername(e.target.value)} type={'email'} placeholder="Enter Your Username/Email Address"></input><br />
